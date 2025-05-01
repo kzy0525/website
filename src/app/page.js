@@ -24,7 +24,7 @@ export default function Home() {
       <main className="flex flex-col items-center text-center mt-20 px-4 space-y-6">
         <h1 className="text-[60px] font-cantata font-bold">Kevin Ye</h1>
         <p className="text-[20px] text-gray-300">Computer Engineering at Queen’s University</p>
-        <div className="w-90 h-790 rounded-full overflow-hidden border-4 border-white">
+        <div className="w-90 h-90 rounded-full overflow-hidden border-4 border-white">
           <Image
             src="/headshot.png"
             alt="Kevin Ye"
