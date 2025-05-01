@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-black text-white font-sans scroll-smooth">
+    <div className="bg-[#1A1A1A] text-white font-sans scroll-smooth">
       {/* --- Nav Bar --- */}
       <nav className="flex items-center justify-between px-6 py-4 border-b border-gray-800">
         <div className="flex items-center space-x-4">
@@ -24,7 +24,7 @@ export default function Home() {
       <main className="flex flex-col items-center text-center mt-20 px-4 space-y-6">
         <h1 className="text-[60px] font-cantata font-bold">Kevin Ye</h1>
         <p className="text-[20px] text-gray-300">Computer Engineering at Queen’s University</p>
-        <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white">
+        <div className="w-70 h-70 rounded-full overflow-hidden border-4 border-white">
           <Image
             src="/headshot.png"
             alt="Kevin Ye"
