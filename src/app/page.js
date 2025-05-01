@@ -31,8 +31,8 @@ export default function Home() {
           <Image
             src="/headshot.png" // replace with your actual image path in /public
             alt="Kevin Ye"
-            width={260}
-            height={260}
+            width={500}
+            height={500}
             objectFit="cover"
           />
         </div>
