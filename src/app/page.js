@@ -8,10 +8,10 @@ export default function Home() {
         {/* Left: Social Icons */}
         <div className="flex items-center space-x-4">
           <a href="https://linkedin.com/in/kevinye0525" target="_blank" rel="noopener noreferrer">
-            <Image src="/linkedin.png" alt="LinkedIn" width={32} height={32} />
+            <Image src="/linkedin.png" alt="LinkedIn" width={40} height={40} />
           </a>
           <a href="https://github.com/kzy0525" target="_blank" rel="noopener noreferrer">
-            <Image src="/github.png" alt="GitHub" width={32} height={32} />
+            <Image src="/github.png" alt="GitHub" width={40} height={40} />
           </a>
         </div>
 
@@ -31,8 +31,8 @@ export default function Home() {
           <Image
             src="/headshot.png" // replace with your actual image path in /public
             alt="Kevin Ye"
-            width={192}
-            height={192}
+            width={260}
+            height={260}
             objectFit="cover"
           />
         </div>
