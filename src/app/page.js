@@ -20,12 +20,12 @@ export default function Home() {
           <a href="#skills" className="hover:underline">Skills</a>
         </div>
       </nav>
-      
+
       {/* --- Hero Section --- */}
       <main className="flex flex-col items-center text-center mt-20 px-4 space-y-6">
-        <h1 className="text-[60px] font-cantata font-bold">Kevin Ye</h1>
-        <p className="text-[20px] text-gray-300">Computer Engineering at Queen’s University</p>
-        <div className="w-90 h-90 rounded-full overflow-hidden border-4 border-white">
+        <h1 className="text-[60px] font-[var(--font-cantata)]">Kevin Ye</h1>
+        <p className="text-[20px] font-[var(--font-cantata)] text-gray-300">Computer Engineering at Queen’s University</p>
+        <div className="w-[500px] h-[500px] rounded-full overflow-hidden border-4 border-white">
           <Image
             src="/headshot.png"
             alt="Kevin Ye"
@@ -38,13 +38,13 @@ export default function Home() {
 
       {/* --- About Section --- */}
       <section id="about" className="text-center px-6 py-20 max-w-4xl mx-auto">
-        <h2 className="text-[32px] font-bold mb-6">01. About Me</h2>
-        <p className="text-gray-300 leading-relaxed mb-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a posuere mi, viverra blandit elit. 
-          Nam fringilla gravida tellus a hendrerit. Pellentesque mattis arcu at sapien maximus congue. 
-          Praesent pharetra tellus mi, blandit ullamcorper dui fringilla eget. Vestibulum ante ipsum primis 
-          in faucibus orci luctus et ultrices posuere cubilia curae; Fusce consequat mauris ut congue lacinia. 
-          Suspendisse sollicitudin porta vehicula. Nulla et lacus consectetur, ornare eros eu, rutrum nisl.
+        <h2 className="text-[32px] font-[var(--font-cantata)] font-bold mb-6">01. About Me</h2>
+        <p className="text-gray-300 font-[var(--font-cantata)] leading-relaxed mb-10">
+          I’m from Vancouver, BC and I am currently a Computer Engineering student at Queen’s University. 
+          I am interested in software engineering, artificial intelligence, and UX design. As I continue to learn 
+          and gain experience, this site will be updated with current projects along with my contact information, 
+          skills, and resume. In my free time, I enjoy playing badminton, travelling, and doing the NYT Wordle. 
+
         </p>
         <div className="flex flex-wrap justify-center gap-6">
           <Image src="/tofu.png" alt="Dog" width={250} height={250} className="rounded-lg" />
@@ -55,7 +55,7 @@ export default function Home() {
 
       {/* --- Projects Section --- */}
       <section id="projects" className="text-center px-6 py-20 max-w-4xl mx-auto">
-        <h2 className="text-[32px] font-bold mb-4">02. Projects</h2>
+        <h2 className="text-[32px] font-[var(--font-cantata)] font-bold mb-4">02. Projects</h2>
         {/* Add project cards or content here later */}
         <p className="text-gray-400">Project details coming soon...</p>
       </section>
