@@ -23,8 +23,8 @@ export default function Home() {
 
       {/* --- Hero Section --- */}
       <main className="flex flex-col items-center text-center mt-20 px-4 space-y-6">
-        <h1 className="text-[60px] font-[var(--font-cantata)]">Kevin Ye</h1>
-        <p className="text-[20px] font-[var(--font-cantata)] text-gray-300">Computer Engineering at Queen’s University</p>
+        <h1 className="text-[60px] font-cantata">Kevin Ye</h1>
+        <p className="text-[20px] font-cantata text-gray-300">Computer Engineering at Queen’s University</p>
         <div className="w-[500px] h-[500px] rounded-full overflow-hidden border-4 border-white">
           <Image
             src="/headshot.png"
@@ -38,8 +38,8 @@ export default function Home() {
 
       {/* --- About Section --- */}
       <section id="about" className="text-center px-6 py-20 max-w-4xl mx-auto">
-        <h2 className="text-[32px] font-[var(--font-cantata)] font-bold mb-6">01. About Me</h2>
-        <p className="text-gray-300 font-[var(--font-cantata)] leading-relaxed mb-10">
+        <h2 className="text-[32px] font-cantata font-bold mb-6">01. About Me</h2>
+        <p className="text-gray-300 font-cantata leading-relaxed mb-10">
           I’m from Vancouver, BC and I am currently a Computer Engineering student at Queen’s University. 
           I am interested in software engineering, artificial intelligence, and UX design. As I continue to learn 
           and gain experience, this site will be updated with current projects along with my contact information, 
