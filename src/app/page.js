@@ -7,11 +7,11 @@ export default function Home() {
       <nav className="flex items-center justify-between px-6 py-4 border-b border-gray-800">
         {/* Left: Social Icons */}
         <div className="flex items-center space-x-4">
-          <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">
-            <Image src="/linkedin-icon.svg" alt="LinkedIn" width={32} height={32} />
+          <a href="www.linkedin.com/in/kevinye0525" target="_blank" rel="noopener noreferrer">
+            <Image src="/linkedin.png" alt="LinkedIn" width={32} height={32} />
           </a>
           <a href="https://github.com/kzy0525" target="_blank" rel="noopener noreferrer">
-            <Image src="/github-icon.svg" alt="GitHub" width={32} height={32} />
+            <Image src="/github.png" alt="GitHub" width={32} height={32} />
           </a>
         </div>
 
@@ -29,7 +29,7 @@ export default function Home() {
         <p className="text-[36px] text-gray-300">Computer Engineering at Queen’s University</p>
         <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white">
           <Image
-            src="/kevin-headshot.jpg" // replace with your actual image path in /public
+            src="/headshot.png" // replace with your actual image path in /public
             alt="Kevin Ye"
             width={192}
             height={192}
