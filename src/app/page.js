@@ -3,8 +3,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="bg-[#1A1A1A] text-white font-sans scroll-smooth">
-      {/* --- Nav Bar --- */}
-      <nav className="flex items-center justify-between px-6 py-4 border-b border-gray-800">
+      
+      {/* --- Fixed Nav Bar --- */}
+      <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A] flex items-center justify-between px-6 py-4 border-b border-gray-800">
         <div className="flex items-center space-x-4">
           <a href="https://linkedin.com/in/kevinye0525" target="_blank" rel="noopener noreferrer">
             <Image src="/linkedin.png" alt="LinkedIn" width={40} height={40} />
@@ -19,7 +20,7 @@ export default function Home() {
           <a href="#skills" className="hover:underline">Skills</a>
         </div>
       </nav>
-
+      
       {/* --- Hero Section --- */}
       <main className="flex flex-col items-center text-center mt-20 px-4 space-y-6">
         <h1 className="text-[60px] font-cantata font-bold">Kevin Ye</h1>
