@@ -7,7 +7,7 @@ export default function Home() {
       <nav className="flex items-center justify-between px-6 py-4 border-b border-gray-800">
         {/* Left: Social Icons */}
         <div className="flex items-center space-x-4">
-          <a href="www.linkedin.com/in/kevinye0525" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/in/kevinye0525" target="_blank" rel="noopener noreferrer">
             <Image src="/linkedin.png" alt="LinkedIn" width={32} height={32} />
           </a>
           <a href="https://github.com/kzy0525" target="_blank" rel="noopener noreferrer">
