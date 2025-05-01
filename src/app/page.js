@@ -25,8 +25,8 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="flex flex-col items-center justify-center text-center mt-20 space-y-6 px-4">
-        <h1 className="text-4xl font-bold">Kevin Ye</h1>
-        <p className="text-lg text-gray-300">Computer Engineering at Queen’s University</p>
+      <h1 className="text-[96px] font-bold">Kevin Ye</h1>
+        <p className="text-[36px] text-gray-300">Computer Engineering at Queen’s University</p>
         <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white">
           <Image
             src="/kevin-headshot.jpg" // replace with your actual image path in /public
