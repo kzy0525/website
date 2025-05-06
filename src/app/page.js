@@ -55,7 +55,6 @@ export default function Home() {
       {/* --- Projects Section --- */}
       <section id="projects" className="text-center px-6 py-20 max-w-4xl mx-auto">
         <h2 className="text-[32px] font-bold mb-4">02. Projects</h2>
-        <p className="text-gray-400">Project list</p>
       </section>
     </div>
   );
