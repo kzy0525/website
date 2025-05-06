@@ -66,7 +66,7 @@ export default function Home() {
             className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg"
           >
             <Image
-              src="/vision.png"
+              src="/qhdt.png"
               alt="Machine Vision Sensor System"
               width={400}
               height={400}
@@ -108,7 +108,7 @@ export default function Home() {
             className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg"
           >
             <Image
-              src="/club.png"
+              src="/inqubateweb.png"
               alt="University Club Website"
               width={400}
               height={400}
