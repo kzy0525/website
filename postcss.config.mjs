@@ -1,9 +1,9 @@
-// postcss.config.mjs
-import tailwind from 'tailwindcss';
-import autoprefixer from 'autoprefixer';
+import tailwindcss from 'tailwindcss'
+import autoprefixer from 'autoprefixer'
 
-const config = {
-  plugins: [tailwind, autoprefixer],
-};
-
-export default config;
+export default {
+  plugins: [
+    tailwindcss,
+    autoprefixer
+  ]
+}
