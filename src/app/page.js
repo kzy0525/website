@@ -35,9 +35,10 @@ export default function Home() {
           />
         </div>
           {/* 🔧 Hover Test */}
-        <div className="group hover:bg-red-500 text-white px-4 py-2 rounded mt-4">
-          Hover over me to try
-        </div>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Hover me
+          </button>
+
 
       </main>
 
