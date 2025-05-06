@@ -34,6 +34,11 @@ export default function Home() {
             objectFit="cover"
           />
         </div>
+          {/* 🔧 Hover Test */}
+        <div className="group hover:bg-red-500 text-white px-4 py-2 rounded mt-4">
+          Hover over me
+        </div>
+
       </main>
 
       {/* --- About Section --- */}
