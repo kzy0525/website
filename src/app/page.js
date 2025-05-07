@@ -69,7 +69,7 @@ export default function Home() {
             href="https://example.com/machine-vision"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
+            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-30"
           >
             <Image
               src="/qhdt.png"
@@ -90,7 +90,7 @@ export default function Home() {
             href="https://example.com/atmos"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-10"
+            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
           >
             <Image
               src="/atmos.png"
@@ -111,7 +111,7 @@ export default function Home() {
             href="https://example.com/club-site"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
+            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-30"
           >
             <Image
               src="/inqubateweb.png"
@@ -132,7 +132,7 @@ export default function Home() {
             href="https://example.com/nomad"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-10"
+            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
           >
             <Image
               src="/nomad.png"
