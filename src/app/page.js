@@ -156,11 +156,10 @@
 
 export default function Home() {
   return (
-    <main className="h-screen flex items-center justify-center">
-      <div 
-        className="bg-green-300 text-black p-4">Tailwind Test
-      </div>
-
+    <main className="h-screen flex justify-center items-center">
+      <button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Hover me
+      </button>
     </main>
   );
 }
