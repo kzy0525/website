@@ -71,11 +71,9 @@ export default function Home() {
             rel="noopener noreferrer"
             className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg"
           >
-            <Image
+            <img
               src="/qhdt.png"
               alt="Machine Vision Sensor System"
-              width={400}
-              height={400}
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
