@@ -63,18 +63,20 @@ export default function Home() {
         <h2 className="text-[32px] font-bold mb-4">02. Projects</h2>
         <p className="text-white mb-12">Some past projects I’ve worked on</p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-20 place-items-center">
           {/* --- Project 1 --- */}
           <a
             href="https://example.com/machine-vision"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg"
+            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
           >
-            <img
+            <Image
               src="/qhdt.png"
               alt="Machine Vision Sensor System"
-              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50"
+              width={400}
+              height={400}
+              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
               <p className="text-sm text-gray-300 mb-1">Feb 2024</p>
@@ -88,14 +90,14 @@ export default function Home() {
             href="https://example.com/atmos"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg"
+            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-10"
           >
             <Image
               src="/atmos.png"
               alt="Atmos"
               width={400}
               height={400}
-              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50"
+              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
               <p className="text-sm text-gray-300 mb-1">Jan 2024</p>
@@ -109,14 +111,14 @@ export default function Home() {
             href="https://example.com/club-site"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg"
+            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
           >
             <Image
               src="/inqubateweb.png"
               alt="University Club Website"
               width={400}
               height={400}
-              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50"
+              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
               <p className="text-sm text-gray-300 mb-1">Nov 2023</p>
@@ -130,14 +132,14 @@ export default function Home() {
             href="https://example.com/nomad"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg"
+            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-10"
           >
             <Image
               src="/nomad.png"
               alt="Nomad"
               width={400}
               height={400}
-              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50"
+              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
               <p className="text-sm text-gray-300 mb-1">March 2024</p>
@@ -147,6 +149,7 @@ export default function Home() {
           </a>
         </div>
       </section>
+
             
     </div>
   );
