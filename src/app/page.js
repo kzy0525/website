@@ -1,12 +1,3 @@
-export default function Home() {
-  return (
-    <main className="h-screen flex items-center justify-center">
-      <button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        Hover me
-      </button>
-    </main>
-  );
-}
 // import Image from "next/image";
 
 // export default function Home() {
@@ -162,3 +153,13 @@ export default function Home() {
 //     </div>
 //   );
 // }
+
+export default function Home() {
+  return (
+    <main className="h-screen flex items-center justify-center">
+      <button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Hover me
+      </button>
+    </main>
+  );
+}
