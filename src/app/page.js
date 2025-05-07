@@ -63,7 +63,7 @@ export default function Home() {
         <h2 className="text-[32px] font-bold mb-4">02. Projects</h2>
         <p className="text-white mb-12">Some past projects I’ve worked on</p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-20 place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-7 gap-y-5 place-items-center">
           {/* --- Project 1 --- */}
           <a
             href="https://example.com/machine-vision"
