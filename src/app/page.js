@@ -6,7 +6,7 @@ export default function Home() {
       
       {/* --- Fixed Nav Bar --- */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A] flex items-center justify-between px-6 py-4 border-b border-gray-800">
-        <div className="flex items-center">
+        <div className="flex items-center space-x-4">
           <a href="https://linkedin.com/in/kevinye0525" target="_blank" rel="noopener noreferrer">
             <Image src="/linkedin.png" alt="LinkedIn" width={40} height={40} />
           </a>
@@ -22,7 +22,7 @@ export default function Home() {
       </nav>
 
       {/* --- Hero Section --- */}
-      <main className="flex flex-col items-center text-center mt-20 px-4 space-y-6">
+      <main className="flex flex-col items-center text-center mt-20 px-4">
         <h1 className="text-[60px]">Kevin Ye</h1>
         <p className="text-[20px] text-gray-300">Computer Engineering at Queen’s University</p>
         <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white">
