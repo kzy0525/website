@@ -17,16 +17,19 @@ export default function HoverImage({ baseSrc, overlaySrc, alt, width, height }) 
         width={width}
         height={height}
         className="object-cover transition duration-300 ease-in-out rounded-2xl"
+        priority
       />
-      {hovered && (
-        <Image
-          src={overlaySrc}
-          alt="Overlay"
-          width={width}
-          height={height}
-          className="absolute top-0 left-0 object-cover rounded-2xl"
-        />
-      )}
+      {/* Render both images, toggle opacity instead of conditional rendering */}
+      <Image
+        src={overlaySrc}
+        alt="Overlay"
+        width={width}
+        height={height}
+        className={`absolute top-0 left-0 object-cover rounded-2xl transition-opacity duration-300 ${
+          hovered ? "opacity-100" : "opacity-0"
+        }`}
+        priority
+      />
     </div>
   );
 }
