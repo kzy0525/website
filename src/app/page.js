@@ -69,14 +69,23 @@ export default function Home() {
             rel="noopener noreferrer"
             className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-30"
           >
-            <HoverImage
-              baseSrc="/qhdt.png"
-              overlaySrc="/atmos.png"
-              alt="Machine Vision Sensor System"
-              width={400}
-              height={400}
-            />
+            <div className="relative w-[400px] h-[400px] overflow-hidden rounded-2xl group">
+          {/* Base Image */}
+          <Image
+            src="/qhdt.png"
+            alt="Base"
+            fill
+            className="object-cover transition duration-500 group-hover:opacity-0"
+          />
 
+          {/* Overlay Image */}
+          <Image
+            src="/atmos.png"
+            alt="Overlay"
+            fill
+            className="object-cover opacity-0 transition duration-500 group-hover:opacity-100"
+          />
+        </div>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
               <p className="text-sm text-gray-300 mb-1">Feb 2024</p>
               <h3 className="text-2xl font-semibold">Machine Vision Sensor System</h3>
