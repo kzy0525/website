@@ -7,26 +7,29 @@ export default function HoverImage({ baseSrc, overlaySrc, alt, width, height }) 
 
   return (
     <div
-      className="relative w-full max-w-sm rounded-2xl overflow-hidden shadow-lg"
+      className="relative w-full max-w-sm"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
+      style={{ width: `${width}px`, height: `${height}px` }}
     >
+      {/* Base Image */}
       <Image
         src={baseSrc}
         alt={alt}
         width={width}
         height={height}
-        className="object-cover transition duration-300 ease-in-out rounded-2xl"
+        className="rounded-2xl object-cover"
         priority
       />
-      {/* Render both images, toggle opacity instead of conditional rendering */}
+
+      {/* Overlay Image (always rendered, toggled with opacity) */}
       <Image
         src={overlaySrc}
         alt="Overlay"
         width={width}
         height={height}
-        className={`absolute top-0 left-0 object-cover rounded-2xl transition-opacity duration-300 ${
-          hovered ? "opacity-100" : "opacity-0"
+        className={`absolute top-0 left-0 rounded-2xl object-cover transition-opacity duration-300 ${
+          hovered ? 'opacity-100' : 'opacity-0'
         }`}
         priority
       />
