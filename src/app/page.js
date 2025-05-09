@@ -5,8 +5,8 @@ export default function Home() {
     <div className="bg-[#1A1A1A] text-white font-[var(--font-cantata)] scroll-smooth">
       
       {/* --- Fixed Nav Bar --- */}
-      <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A] flex items-center justify-between px-6 py-4">
-        <div className="flex items-center space-x-4">
+      <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A] flex items-center justify-between px-6 py-4 border-b border-gray-800">
+        <div className="flex items-center">
           <a href="https://linkedin.com/in/kevinye0525" target="_blank" rel="noopener noreferrer">
             <Image src="/linkedin.png" alt="LinkedIn" width={40} height={40} />
           </a>
