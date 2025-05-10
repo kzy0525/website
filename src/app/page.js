@@ -61,17 +61,17 @@ export default function Home() {
         <h2 className="text-[32px] font-bold mb-4">02. Projects</h2>
         <p className="text-white mb-12">Some past projects I’ve worked on</p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-7 gap-y-5 place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-1 gap-y-3 place-items-center">
           {/* --- Project 1 --- */}
           <a
-            href="https://example.com/atmos"
+            href="https://example.com/qhdt"
             target="_blank"
             rel="noopener noreferrer"
             className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
           >
             <Image
               src="/qhdt.png"
-              alt="qdht"
+              alt="qhdt"
               width={400}
               height={400}
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
