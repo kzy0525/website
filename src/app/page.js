@@ -17,14 +17,14 @@ export default function Home() {
           </a>
         </div>
         <div className="flex space-x-6 text-lg font-semibold">
-          <a href="#about" className="hover:underline">About</a>
-          <a href="#projects" className="hover:underline">Projects</a>
-          <a href="#skills" className="hover:underline">Skills</a>
+          <a href="#about" className="hover:text-[#7E7E7E]">About</a>
+          <a href="#projects" className="hover:text-[#7E7E7E]">Projects</a>
+          <a href="#skills" className="hover:text-[#7E7E7E]">Skills</a>
         </div>
       </nav>
 
       {/* --- Hero Section --- */}
-      <main className="flex flex-col items-center text-center mt-20 px-4 space-y-20">
+      <main className="flex flex-col items-center text-center mt-20 px-4 space-y-6">
         <h1 className="text-[60px]">Kevin Ye</h1>
         <p className="text-[20px] text-gray-300">Computer Engineering at Queen’s University</p>
         <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white">
