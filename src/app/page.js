@@ -69,15 +69,13 @@ export default function Home() {
             rel="noopener noreferrer"
             className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
           >
-            <div className="relative w-[652px] h-[900px] group">
-              <Image
-                src="/qhdt.png"
-                alt="qhdt"
-                fill
-                className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
-              />
-            </div>
-
+            <Image
+              src="/qhdt.png"
+              alt="qdht"
+              width={400}
+              height={400}
+              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
+            />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
               <p className="text-sm text-gray-300 mb-1">Jan 2024</p>
               <h3 className="text-2xl font-semibold">Atmos</h3>
