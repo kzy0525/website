@@ -64,32 +64,27 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-7 gap-y-5 place-items-center">
           {/* --- Project 1 --- */}
           <a
-            href="https://example.com/machine-vision"
+            href="https://example.com/atmos"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-30"
+            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
           >
-            <div className="relative w-[400px] h-[400px] overflow-hidden rounded-2xl group">
-          {/* Base Image */}
-          <Image
-            src="/qhdt.png"
-            alt="Base"
-            fill
-            className="object-cover transition duration-500 group-hover:opacity-0"
-          />
+            <div className="relative w-[400px] h-[400px] group">
+              <Image
+                src="/qhdt.png"
+                alt="qhdt"
+                fill
+                className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
+              />
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <p className="text-white text-xl font-semibold">smt smt about the project</p>
+              </div>
+            </div>
 
-          {/* Overlay Image */}
-          <Image
-            src="/atmos.png"
-            alt="Overlay"
-            fill
-            className="object-cover opacity-0 transition duration-500 group-hover:opacity-100"
-          />
-        </div>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
-              <p className="text-sm text-gray-300 mb-1">Feb 2024</p>
-              <h3 className="text-2xl font-semibold">Machine Vision Sensor System</h3>
-              <p className="text-sm text-gray-300 mt-1">ML, Full-stack</p>
+              <p className="text-sm text-gray-300 mb-1">Jan 2024</p>
+              <h3 className="text-2xl font-semibold">Atmos</h3>
+              <p className="text-sm text-gray-300 mt-1">Hardware, Full-stack</p>
             </div>
           </a>
 
