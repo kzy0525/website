@@ -79,7 +79,7 @@ export default function Home() {
       </section>
 
       {/* --- Projects Section --- */}
-      <section id="projects" className="text-center px-6 py-20 max-w-sm mx-auto font-[var(--font-cantata)]">
+      <section id="projects" className="text-center px-6 py-5 max-w-lg mx-auto font-[var(--font-cantata)]">
         <h2 className="text-[32px] font-bold mb-4">02. Projects</h2>
         <p className="text-white mb-12">Some past projects I’ve worked on</p>
 
