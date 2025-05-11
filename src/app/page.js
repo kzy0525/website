@@ -79,7 +79,7 @@ export default function Home() {
       </section>
 
       {/* --- Projects Section --- */}
-      <section id="projects" className="text-center px-6 py-20 max-w-6xl mx-auto font-[var(--font-cantata)]">
+      <section id="projects" className="text-center px-6 py-20 max-w-sm mx-auto font-[var(--font-cantata)]">
         <h2 className="text-[32px] font-bold mb-4">02. Projects</h2>
         <p className="text-white mb-12">Some past projects I’ve worked on</p>
 
@@ -89,7 +89,7 @@ export default function Home() {
             href="https://example.com/qhdt"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
+            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-50"
           >
             <Image
               src="/image.png"
@@ -131,7 +131,7 @@ export default function Home() {
             href="https://example.com/club-site"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-30"
+            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-50"
           >
             <Image
               src="/inqubateweb.png"
@@ -170,7 +170,6 @@ export default function Home() {
         </div>
       </section>
 
-            
     </div>
   );
 }
