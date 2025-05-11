@@ -24,7 +24,7 @@ export default function Home() {
       </nav>
 
       {/* --- Hero Section --- */}
-      <main className="flex flex-col items-center text-center mt-20 px-4 space-y-6">
+      <main className="flex flex-col items-center text-center mt-30 px-4 space-y-6">
         <h1 className="text-[60px]">Kevin Ye</h1>
         <p className="text-[20px] text-gray-300">Computer Engineering at Queen’s University</p>
         <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white">
