@@ -39,9 +39,9 @@ export default function Home() {
           </a>
         </div>
         <div className="flex space-x-6 text-lg font-semibold">
-          <a href="#about" className="hover:text-[#7E7E7E]">About</a>
-          <a href="#projects" className="hover:text-[#7E7E7E]">Projects</a>
-          <a href="#skills" className="hover:text-[#7E7E7E]">Skills</a>
+          <a href="#about" className="duration-300 ease-in-out hover:text-[#1A1A1A]">About</a>
+          <a href="#projects" className="duration-300 ease-in-out hover:text-[#1A1A1A]">Projects</a>
+          <a href="#skills" className="duration-300 ease-in-out hover:text-[#1A1A1A]">Skills</a>
         </div>
       </nav>
 
@@ -92,7 +92,7 @@ export default function Home() {
             className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
           >
             <Image
-              src="/qhdt.png"
+              src="/image.png"
               alt="qhdt"
               width={400}
               height={400}
