@@ -39,9 +39,9 @@ export default function Home() {
           </a>
         </div>
         <div className="flex space-x-6 text-lg font-semibold">
-          <a href="#about" className="duration-300 ease-in-out hover:text-[#1A1A1A]">About</a>
-          <a href="#projects" className="duration-300 ease-in-out hover:text-[#1A1A1A]">Projects</a>
-          <a href="#skills" className="duration-300 ease-in-out hover:text-[#1A1A1A]">Skills</a>
+          <a href="#about" className="duration-300 ease-in-out hover:brightness-50">About</a>
+          <a href="#projects" className="duration-300 ease-in-out hover:brightness-50">Projects</a>
+          <a href="#skills" className="duration-300 ease-in-out hover:brightness-50">Skills</a>
         </div>
       </nav>
 
