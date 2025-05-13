@@ -7,7 +7,7 @@ export default function Home() {
     <div className="bg-[#1A1A1A] text-white font-[var(--font-cantata)] scroll-smooth">
       
       {/* --- Fixed Nav Bar --- */}
-      <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A] flex items-center justify-between px-6 py-4 border-b border-gray-800">
+      <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A] flex items-center justify-between px-6 py-4 border-b border-[#282828]">
         <div className="flex items-center space-x-4">
           <a
             href="https://linkedin.com/in/kevinye0525"
@@ -47,9 +47,9 @@ export default function Home() {
 
       {/* --- Hero Section --- */}
       <main className="flex flex-col items-center text-center mt-15 px-4">
-        <h1 className="text-[60px] mt-10 py-5">Kevin Ye</h1>
+        <h1 className="text-[70px] mt-10 py-5">Kevin Ye</h1>
         <p className="text-[20px] text-gray-300 py-5">Computer Engineering at Queen’s University</p>
-        <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white">
+        <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white mt-10">
           <Image
             src="/headshot.png"
             alt="Kevin Ye"
@@ -84,7 +84,7 @@ export default function Home() {
         <h2 className="text-[32px] font-bold mb-4">02. Projects</h2>
         <p className="text-white mb-12">Some past projects I’ve worked on</p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-1 gap-y-3 place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-10 place-items-center">
           {/* --- Project 1 --- */}
           <a
             href="https://example.com/qhdt"
@@ -95,8 +95,8 @@ export default function Home() {
             <Image
               src="/image.png"
               alt="qhdt"
-              width={400}
-              height={400}
+              width={652}
+              height={900}
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
@@ -116,8 +116,8 @@ export default function Home() {
             <Image
               src="/atmos.png"
               alt="Atmos"
-              width={400}
-              height={400}
+              width={652}
+              height={900}
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
@@ -137,8 +137,8 @@ export default function Home() {
             <Image
               src="/inqubateweb.png"
               alt="University Club Website"
-              width={400}
-              height={400}
+              width={652}
+              height={900}
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
@@ -158,8 +158,8 @@ export default function Home() {
             <Image
               src="/nomad.png"
               alt="Nomad"
-              width={400}
-              height={400}
+              width={652}
+              height={900}
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
