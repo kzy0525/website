@@ -32,8 +32,8 @@ export default function Home() {
             <Image
               src="/github.png"
               alt="GitHub"
-              width={40}
-              height={40}
+              width={55}
+              height={55}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
           </a>
@@ -48,8 +48,8 @@ export default function Home() {
       {/* --- Hero Section --- */}
       <main className="flex flex-col items-center text-center mt-15 px-4">
         <h1 className="text-[70px] mt-10 py-5">Kevin Ye</h1>
-        <p className="text-[20px] text-gray-300 py-5">Computer Engineering at Queen’s University</p>
-        <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white mt-10">
+        <p className="text-[30px] text-gray-300 py-3">Computer Engineering at Queen’s University</p>
+        <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white mt-8">
           <Image
             src="/headshot.png"
             alt="Kevin Ye"
