@@ -69,7 +69,8 @@ export default function Home() {
           I’m from Vancouver, BC and I am currently a Computer Engineering student at Queen’s University. 
           I am interested in software engineering, artificial intelligence, and UX design. As I continue to learn 
           and gain experience, this site will be updated with current projects along with my contact information, 
-          skills, and resume. In my free time, I enjoy playing badminton, travelling, and doing the NYT Wordle. 
+          skills, and resume. In my free time, I enjoy playing badminton, travelling, and doing the NYT Wordle.
+          Feel free to reach out at ye.kevin@queensu.ca!
         </p>
         <div className="flex flex-wrap justify-center gap-6">
           <Image src="/tofu.png" alt="Dog" width={250} height={250} className="rounded-lg" />
@@ -99,8 +100,8 @@ export default function Home() {
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
-              <p className="text-sm text-gray-300 mb-1">Jan 2024</p>
-              <h3 className="text-2xl font-semibold">Atmos</h3>
+              <p className="text-sm text-gray-300 mb-1">Sept 2024</p>
+              <h3 className="text-2xl font-semibold"></h3>
               <p className="text-sm text-gray-300 mt-1">Hardware, Full-stack</p>
             </div>
           </a>
@@ -120,7 +121,7 @@ export default function Home() {
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
-              <p className="text-sm text-gray-300 mb-1">Jan 2024</p>
+              <p className="text-sm text-gray-300 mb-1">Jan 2025</p>
               <h3 className="text-2xl font-semibold">Atmos</h3>
               <p className="text-sm text-gray-300 mt-1">Hardware, Full-stack</p>
             </div>
