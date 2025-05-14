@@ -72,7 +72,7 @@ export default function Home() {
           skills, and resume. In my free time, I enjoy playing badminton, travelling, and doing the NYT Wordle.
           Feel free to reach out at ye.kevin@queensu.ca!
         </p>
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex flex-wrap justify-center py-5">
           <Image src="/tofu.png" alt="Dog" width={250} height={250} className="rounded-lg" />
           <Image src="/beach.png" alt="Beach lift" width={250} height={250} className="rounded-lg" />
           <Image src="/violin.png" alt="Piano" width={250} height={250} className="rounded-lg" />
@@ -80,9 +80,9 @@ export default function Home() {
       </section>
 
       {/* --- Projects Section --- */}
-      <section id="projects" className="text-center px-6 py-5 max-w-lg mx-auto font-[var(--font-cantata)]">
-        <h2 className="text-[32px] font-bold mb-4">02. Projects</h2>
-        <p className="text-white mb-12">Some past projects I’ve worked on</p>
+      <section id="projects" className="px-6 py-5 max-w-lg mx-auto font-[var(--font-cantata)]">
+        <h2 className="text-center text-[32px] font-bold mb-4">02. Projects</h2>
+        <p className="text-left text-white mb-12 ml-6">Some past projects I’ve worked on</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-10 place-items-center">
           {/* --- Project 1 --- */}
@@ -90,18 +90,17 @@ export default function Home() {
             href="https://github.com/kzy0525/Hyperloop-Object-Detection"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group rounded-2xl overflow-hidden shadow-lg mt-50"
+            className="relative group w-[652px] h-[900px]rounded-2xl overflow-hidden shadow-lg mt-50"
           >
             <Image
               src="/image.png"
               alt="qhdt"
-              width={652}
-              height={900}
+              fill
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
               <p className="text-sm text-gray-300 mb-1">Sept 2024</p>
-              <h3 className="text-2xl font-semibold"></h3>
+              <h3 className="text-2xl font-semibold">Machine Vision Sensor System</h3>
               <p className="text-sm text-gray-300 mt-1">Hardware, Full-stack</p>
             </div>
           </a>
@@ -111,13 +110,12 @@ export default function Home() {
             href="https://github.com/kzy0525/Final-290-Code"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group rounded-2xl overflow-hidden shadow-lg mt-0"
+            className="relative group w-[652px] h-[900px]rounded-2xl overflow-hidden shadow-lg mt-50"
           >
             <Image
               src="/atmos.png"
               alt="Atmos"
-              width={652}
-              height={900}
+              fill
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
@@ -132,13 +130,12 @@ export default function Home() {
             href="https://www.inqubate.ca/"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group rounded-2xl overflow-hidden shadow-lg mt-50"
+            className="relative group w-[652px] h-[900px]rounded-2xl overflow-hidden shadow-lg mt-50"
           >
             <Image
               src="/inqubateweb.png"
               alt="University Club Website"
-              width={652}
-              height={900}
+              fill
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
@@ -153,13 +150,12 @@ export default function Home() {
             href="https://example.com/nomad"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group rounded-2xl overflow-hidden shadow-lg mt-0"
+            className="relative group w-[652px] h-[900px]rounded-2xl overflow-hidden shadow-lg mt-50"
           >
             <Image
               src="/nomad.png"
               alt="Nomad"
-              width={652}
-              height={900}
+              fill
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
