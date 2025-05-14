@@ -7,7 +7,7 @@ export default function Home() {
     <div className="bg-[#1A1A1A] text-white font-[var(--font-cantata)] scroll-smooth">
       
       {/* --- Fixed Nav Bar --- */}
-      <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A] flex items-center justify-between px-6 py-4 border-b border-[#282828]">
+      <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A] flex items-center justify-between px-6 py-2 border-b border-[#282828]">
         <div className="flex items-center space-x-4">
           <a
             href="https://linkedin.com/in/kevinye0525"
@@ -32,8 +32,8 @@ export default function Home() {
             <Image
               src="/github.png"
               alt="GitHub"
-              width={55}
-              height={55}
+              width={50}
+              height={50}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
           </a>
@@ -47,8 +47,8 @@ export default function Home() {
 
       {/* --- Hero Section --- */}
       <main className="flex flex-col items-center text-center mt-15 px-4">
-        <h1 className="text-[70px] mt-10 py-5">Kevin Ye</h1>
-        <p className="text-[30px] text-gray-300 py-3">Computer Engineering at Queen’s University</p>
+        <h1 className="text-[70px] mt-15">Kevin Ye</h1>
+        <p className="text-[30px] text-gray-300 py-5">Computer Engineering at Queen’s University</p>
         <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white mt-8">
           <Image
             src="/headshot.png"
@@ -65,7 +65,7 @@ export default function Home() {
       {/* --- About Section --- */}
       <section id="about" className="text-center px-6 py-30 max-w-4xl mx-auto">
         <h2 className="text-[32px] font-bold mb-6">01. About Me</h2>
-        <p className="text-gray-300 leading-relaxed mb-10">
+        <p className="text-gray-300 leading-relaxed py-5">
           I’m from Vancouver, BC and I am currently a Computer Engineering student at Queen’s University. 
           I am interested in software engineering, artificial intelligence, and UX design. As I continue to learn 
           and gain experience, this site will be updated with current projects along with my contact information, 
