@@ -87,10 +87,10 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-10 place-items-center">
           {/* --- Project 1 --- */}
           <a
-            href="https://example.com/qhdt"
+            href="https://github.com/kzy0525/Hyperloop-Object-Detection"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-50"
+            className="relative group w-full rounded-2xl overflow-hidden shadow-lg mt-50"
           >
             <Image
               src="/image.png"
@@ -108,10 +108,10 @@ export default function Home() {
 
           {/* --- Project 2 --- */}
           <a
-            href="https://example.com/atmos"
+            href="https://github.com/kzy0525/Final-290-Code"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
+            className="relative group w-full rounded-2xl overflow-hidden shadow-lg mt-0"
           >
             <Image
               src="/atmos.png"
@@ -129,10 +129,10 @@ export default function Home() {
 
           {/* --- Project 3 --- */}
           <a
-            href="https://example.com/club-site"
+            href="https://www.inqubate.ca/"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-50"
+            className="relative group w-full rounded-2xl overflow-hidden shadow-lg mt-50"
           >
             <Image
               src="/inqubateweb.png"
@@ -153,7 +153,7 @@ export default function Home() {
             href="https://example.com/nomad"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full max-w-sm rounded-2xl overflow-hidden shadow-lg mt-0"
+            className="relative group w-full rounded-2xl overflow-hidden shadow-lg mt-0"
           >
             <Image
               src="/nomad.png"
