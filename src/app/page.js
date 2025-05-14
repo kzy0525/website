@@ -72,7 +72,7 @@ export default function Home() {
           skills, and resume. In my free time, I enjoy playing badminton, travelling, and doing the NYT Wordle.
           Feel free to reach out at ye.kevin@queensu.ca!
         </p>
-        <div className="flex flex-wrap justify-center py-5 gap-4">
+        <div className="flex flex-wrap justify-center py-5 gap-6">
           <Image src="/tofu.png" alt="Dog" width={250} height={250} className="rounded-lg" />
           <Image src="/beach.png" alt="Beach lift" width={250} height={250} className="rounded-lg" />
           <Image src="/violin.png" alt="Piano" width={250} height={250} className="rounded-lg" />
@@ -90,7 +90,7 @@ export default function Home() {
             href="https://github.com/kzy0525/Hyperloop-Object-Detection"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[652px] h-[900px] rounded-2xl overflow-hidden shadow-lg mt-[50px]"
+            className="relative group w-[400px] h-[553px] rounded-2xl overflow-hidden shadow-lg"
           >
             <Image
               src="/image.png"
@@ -110,7 +110,7 @@ export default function Home() {
             href="https://github.com/kzy0525/Final-290-Code"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[652px] h-[900px] rounded-2xl overflow-hidden shadow-lg mt-[50px]"
+            className="relative group w-[400px] h-[553px] rounded-2xl overflow-hidden shadow-lg mt-[50px]"
           >
             <Image
               src="/atmos.png"
@@ -130,7 +130,7 @@ export default function Home() {
             href="https://www.inqubate.ca/"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[652px] h-[900px] rounded-2xl overflow-hidden shadow-lg mt-[50px]"
+            className="relative group w-[400px] h-[553px] rounded-2xl overflow-hidden shadow-lg"
           >
             <Image
               src="/inqubateweb.png"
@@ -150,7 +150,7 @@ export default function Home() {
             href="https://example.com/nomad"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[652px] h-[900px] rounded-2xl overflow-hidden shadow-lg mt-[50px]"
+            className="relative group w-[400px] h-[553px] rounded-2xl overflow-hidden shadow-lg mt-[50px]"
           >
             <Image
               src="/nomad.png"
