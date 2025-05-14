@@ -90,7 +90,7 @@ export default function Home() {
             href="https://github.com/kzy0525/Hyperloop-Object-Detection"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full rounded-2xl overflow-hidden shadow-lg mt-50"
+            className="relative group rounded-2xl overflow-hidden shadow-lg mt-50"
           >
             <Image
               src="/image.png"
@@ -111,7 +111,7 @@ export default function Home() {
             href="https://github.com/kzy0525/Final-290-Code"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full rounded-2xl overflow-hidden shadow-lg mt-0"
+            className="relative group rounded-2xl overflow-hidden shadow-lg mt-0"
           >
             <Image
               src="/atmos.png"
@@ -132,7 +132,7 @@ export default function Home() {
             href="https://www.inqubate.ca/"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full rounded-2xl overflow-hidden shadow-lg mt-50"
+            className="relative group rounded-2xl overflow-hidden shadow-lg mt-50"
           >
             <Image
               src="/inqubateweb.png"
@@ -153,7 +153,7 @@ export default function Home() {
             href="https://example.com/nomad"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-full rounded-2xl overflow-hidden shadow-lg mt-0"
+            className="relative group rounded-2xl overflow-hidden shadow-lg mt-0"
           >
             <Image
               src="/nomad.png"
