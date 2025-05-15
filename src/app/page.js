@@ -83,7 +83,7 @@ export default function Home() {
       <section id="projects" className="px-6 py-5 max-w-full mx-auto font-[var(--font-cantata)]">
         <h2 className="text-center text-[32px] font-bold mb-4">02. Projects</h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 gap-y-4 max-w-4xl mx-auto place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 max-w-xl mx-auto place-items-center">
           {/* --- Project 1 --- */}
           <a
             href="https://github.com/kzy0525/Hyperloop-Object-Detection"
