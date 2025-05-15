@@ -82,15 +82,14 @@ export default function Home() {
       {/* --- Projects Section --- */}
       <section id="projects" className="px-6 py-5 max-w-full mx-auto font-[var(--font-cantata)]">
         <h2 className="text-center text-[32px] font-bold mb-4">02. Projects</h2>
-        <p className="text-left text-white mb-12 ml-40">Some past projects I’ve worked on</p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 gap-y-10 max-w-4xl mx-auto place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 gap-y-4 max-w-4xl mx-auto place-items-center">
           {/* --- Project 1 --- */}
           <a
             href="https://github.com/kzy0525/Hyperloop-Object-Detection"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[400px] h-[553px] rounded-2xl overflow-hidden shadow-lg mt-[150px]"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg mt-[250px]"
           >
             <Image
               src="/image.png"
@@ -110,7 +109,7 @@ export default function Home() {
             href="https://github.com/kzy0525/Final-290-Code"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[400px] h-[553px] rounded-2xl overflow-hidden shadow-lg"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg"
           >
             <Image
               src="/atmos.png"
@@ -130,7 +129,7 @@ export default function Home() {
             href="https://www.inqubate.ca/"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[400px] h-[553px] rounded-2xl overflow-hidden shadow-lg mt-[150px]"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg mt-[250px]"
           >
             <Image
               src="/inqubateweb.png"
@@ -150,7 +149,7 @@ export default function Home() {
             href="https://example.com/nomad"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[400px] h-[553px] rounded-2xl overflow-hidden shadow-lg"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg"
           >
             <Image
               src="/nomad.png"
