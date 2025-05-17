@@ -18,8 +18,8 @@ export default function Home() {
             <Image
               src="/linkedin.png"
               alt="LinkedIn"
-              width={40}
-              height={40}
+              width={30}
+              height={30}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
           </a>
@@ -32,8 +32,8 @@ export default function Home() {
             <Image
               src="/github.png"
               alt="GitHub"
-              width={50}
-              height={50}
+              width={40}
+              height={40}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
           </a>
@@ -49,7 +49,7 @@ export default function Home() {
       <main className="flex flex-col items-center text-center mt-15 px-4">
         <h1 className="text-[70px] mt-15">Kevin Ye</h1>
         <p className="text-[30px] text-gray-300 py-5">Computer Engineering at Queen’s University</p>
-        <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-4 border-white mt-8">
+        <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-2 border-white mt-8">
           <Image
             src="/headshot.png"
             alt="Kevin Ye"
@@ -58,8 +58,6 @@ export default function Home() {
             objectFit="cover"
           />
         </div>
-
-
       </main>
 
       {/* --- About Section --- */}
@@ -169,4 +167,3 @@ export default function Home() {
     </div>
   );
 }
-
