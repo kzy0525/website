@@ -18,8 +18,8 @@ export default function Home() {
             <Image
               src="/linkedin.png"
               alt="LinkedIn"
-              width={35}
-              height={35}
+              width={40}
+              height={40}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
           </a>
@@ -32,8 +32,8 @@ export default function Home() {
             <Image
               src="/github.png"
               alt="GitHub"
-              width={41}
-              height={41}
+              width={50}
+              height={50}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
           </a>
@@ -81,7 +81,7 @@ export default function Home() {
       <section id="projects" className="px-6 py-5 max-w-full mx-auto font-[var(--font-cantata)]">
         <h2 className="text-center text-[32px] font-bold mb-4">02. Projects</h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-15 gap-y-5 max-w-xl mx-auto mt-15">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-15 gap-y-5 max-w-xl mx-auto mt-35">
           {/* --- Project 1 --- */}
           <a
             href="https://github.com/kzy0525/Hyperloop-Object-Detection"
@@ -161,6 +161,27 @@ export default function Home() {
               <p className="text-sm text-gray-300 mt-1">UX</p>
             </div>
           </a>
+
+          {/* --- Project 5 --- */}
+          <a
+            href="https://github.com/kzy0525/Motion-Classification-Model"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg"
+          >
+            <Image
+              src="/image.png"
+              alt="292"
+              fill
+              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
+              <p className="text-sm text-gray-300 mb-1">March 2025</p>
+              <h3 className="text-2xl font-semibold">Motion Classification Model</h3>
+              <p className="text-sm text-gray-300 mt-1">Back-end</p>
+            </div>
+          </a>
+
         </div>
       </section>
 
