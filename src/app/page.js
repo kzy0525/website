@@ -48,7 +48,7 @@ export default function Home() {
       <main className="flex flex-col items-center text-center mt-15 px-4">
         <h1 className="cantata text-[70px] mt-15">Kevin Ye</h1>
         <p className="cantata text-[25px] mt-2">Computer Engineering at Queen’s University</p>
-        <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-2 border-white mt-8">
+        <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-2 border-white mt-10">
           <Image
             src="/headshot.png"
             alt="Kevin Ye"
@@ -61,7 +61,7 @@ export default function Home() {
 
       {/* --- About Section --- */}
       <section id="about" className="text-center px-6 py-30 max-w-4xl mx-auto font-[var(--font-cantata)]">
-        <h2 className="cantata text-[32px] mb-6">01. About Me</h2>
+        <h2 className="cantata text-[32px] py-6">01. About Me</h2>
         <p className="text-gray-300 leading-relaxed py-5">
           I’m from Vancouver, BC and I am currently a Computer Engineering student at Queen’s University. 
           I am interested in software engineering, artificial intelligence, and UX design. As I continue to learn 
@@ -192,12 +192,12 @@ export default function Home() {
 
         <div className="flex flex-wrap justify-center gap-6 mb-12">
           {[
-            "js.jpeg", "html.png", "css.png", "c.png", "python.png", "arduino.png",
-            "java.png", "plotly.png", "postgresql.png", "digitalocean.png", "jquery.png", "bootstrap.png",
+            "js.jpeg", "html.png", "css.png", "c.png", "python.jpeg",
+            "java.png", "tf.png", "figma.png", "digitalocean.png", "jquery.png", "bootstrap.png",
             "redux.png", "react.png", "svelte.png", "nodejs.png", "mongodb.png", "matlab.png", "php.png", "terminal.png"
           ].map((src, i) => (
             <div key={i} className="w-[50px] h-[50px] relative">
-              <Image src={`/icons/${src}`} alt={src} fill className="object-contain" />
+              <Image src={`${src}`} alt={src} fill className="object-contain" />
             </div>
           ))}
         </div>
