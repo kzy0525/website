@@ -8,7 +8,7 @@ export default function Home() {
       {/* --- Fixed Nav Bar --- */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A] flex items-center justify-between px-6 py-2 border-b border-[#282828]">
         <div className="flex items-center space-x-4">
-          <a
+          {/* <a
             href="https://linkedin.com/in/kevinye0525"
             target="_blank"
             rel="noopener noreferrer"
@@ -21,7 +21,7 @@ export default function Home() {
               height={40}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
-          </a>
+          </a> */}
           <a
             href="https://github.com/kzy0525"
             target="_blank"
@@ -109,7 +109,7 @@ export default function Home() {
             href="https://github.com/kzy0525/Final-290-Code"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg mt-[-80px]"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105 mt-[-80px]"
           >
             <Image
               src="/atmos.png"
@@ -129,7 +129,7 @@ export default function Home() {
             href="https://www.inqubate.ca/"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
           >
             <Image
               src="/inqubateweb.png"
@@ -149,7 +149,7 @@ export default function Home() {
             href="https://example.com/nomad"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg mt-[-80px]"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105 mt-[-80px]"
           >
             <Image
               src="/nomad.png"
@@ -169,7 +169,7 @@ export default function Home() {
             href="https://github.com/kzy0525/Motion-Classification-Model"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
           >
             <Image
               src="/292.png"
@@ -193,7 +193,7 @@ export default function Home() {
 
         <div className="flex flex-wrap justify-center gap-6 mb-12">
           {[
-            "javascript.png", "html.png", "css.png", "c.png", "python.png", "arduino.png",
+            "js.jpeg", "html.png", "css.png", "c.png", "python.png", "arduino.png",
             "java.png", "plotly.png", "postgresql.png", "digitalocean.png", "jquery.png", "bootstrap.png",
             "redux.png", "react.png", "svelte.png", "nodejs.png", "mongodb.png", "matlab.png", "php.png", "terminal.png"
           ].map((src, i) => (
@@ -216,41 +216,71 @@ export default function Home() {
         </div>
       </section>
 
-      {/* --- Contact Section --- */}
-      <section id="contact" className="text-center px-6 py-30 max-w-4xl mx-auto font-[var(--font-cantata)]">
+      {/* --- Contact & Resume Section --- */}
+      <section id="contact" className="text-center px-6 py-30 max-w-6xl mx-auto font-[var(--font-cantata)]">
         <h2 className="text-[32px] font-bold mb-6">04. Contact & Resume</h2>
 
-        <p className="text-gray-300 text-lg py-2">
+        <p className="text-gray-300 text-lg py-4">
           Feel free to connect with me or check out my resume below!
         </p>
 
-        <div className="flex flex-col items-center gap-4 mt-8">
-          {/* Resume Download */}
+        {/* Resume Link */}
+        <a
+          href="/Kevin_Ye_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center text-[28px] text-white hover:underline transition mb-12"
+        >
+          Resume PDF <span className="ml-2 text-[32px]">➤</span>
+        </a>
+
+        {/* Contact Icons */}
+        <div className="flex flex-wrap justify-center gap-12 text-[20px] text-white mt-10">
+          {/* Instagram */}
           <a
-            href="/Kevin_Ye_Resume.pdf"
+            href="https://instagram.com/yourusername"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white border border-white px-6 py-2 rounded-lg hover:bg-white hover:text-black transition duration-300"
+            className="flex flex-col items-center hover:opacity-70 transition"
           >
-            View My Resume
+            <Image src="/icons/instagram.png" alt="Instagram" width={32} height={32} />
+            <span className="mt-2">Instagram</span>
+          </a>
+
+          {/* GitHub */}
+          <a
+            href="https://github.com/kzy0525"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center hover:opacity-70 transition"
+          >
+            <Image src="/icons/github.png" alt="GitHub" width={32} height={32} />
+            <span className="mt-2">GitHub</span>
           </a>
 
           {/* Email */}
-          <p className="text-gray-300 text-md">
-            📧 <a href="mailto:ye.kevin@queensu.ca" className="underline hover:text-white transition">ye.kevin@queensu.ca</a>
-          </p>
+          <a
+            href="mailto:ye.kevin@queensu.ca"
+            className="flex flex-col items-center hover:opacity-70 transition"
+          >
+            <Image src="/icons/email.png" alt="Email" width={32} height={32} />
+            <span className="mt-2">Email</span>
+          </a>
 
-          {/* Social Links */}
-          <div className="flex gap-6 justify-center mt-4">
-            <a href="https://www.linkedin.com/in/kevinye0525" target="_blank" rel="noopener noreferrer">
-              <Image src="linkedin.png" alt="LinkedIn" width={32} height={32} />
-            </a>
-            <a href="https://github.com/kzy0525" target="_blank" rel="noopener noreferrer">
-              <Image src="github.png" alt="GitHub" width={32} height={32} />
-            </a>
-          </div>
+          {/* LinkedIn */}
+          <a
+            href="https://www.linkedin.com/in/kevinye0525"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center hover:opacity-70 transition"
+          >
+            <Image src="/icons/linkedin.png" alt="LinkedIn" width={32} height={32} />
+            <span className="mt-2">LinkedIn</span>
+          </a>
         </div>
       </section>
+
+
 
 
 
