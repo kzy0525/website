@@ -81,13 +81,13 @@ export default function Home() {
       <section id="projects" className="px-6 py-5 max-w-full mx-auto font-[var(--font-cantata)]">
         <h2 className="text-center text-[32px] font-bold mb-4">02. Projects</h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-2 max-w-xl mx-auto place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-2 max-w-xl mx-auto">
           {/* --- Project 1 --- */}
           <a
             href="https://github.com/kzy0525/Hyperloop-Object-Detection"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg mt-[250px]"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg mt-[150px]"
           >
             <Image
               src="/image.png"
@@ -127,7 +127,7 @@ export default function Home() {
             href="https://www.inqubate.ca/"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg mt-[250px]"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg mt-[150px]"
           >
             <Image
               src="/inqubateweb.png"
