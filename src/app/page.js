@@ -259,7 +259,7 @@ export default function Home() {
             className="group"
           >
             <Image
-              src="/email.png"
+              src="/email.jpg"
               alt="email"
               width={50}
               height={50}
