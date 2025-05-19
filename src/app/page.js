@@ -37,11 +37,11 @@ export default function Home() {
             />
           </a> */}
         </div>
-        <div className="flex space-x-6 space-y-40 text-lg font-semibold">
-          <a href="#about" className="duration-300 ease-in-out hover:brightness-50">About</a>
-          <a href="#projects" className="duration-300 ease-in-out hover:brightness-50">Projects</a>
-          <a href="#skills" className="duration-300 ease-in-out hover:brightness-50">Skills</a>
-          <a href="#resume" className="duration-300 ease-in-out hover:brightness-50">Resume</a>
+        <div className="flex space-x-6 text-lg font-semibold">
+          <a href="#about" className="py-2 duration-300 ease-in-out hover:brightness-50">About</a>
+          <a href="#projects" className="py-2 duration-300 ease-in-out hover:brightness-50">Projects</a>
+          <a href="#skills" className="py-2 duration-300 ease-in-out hover:brightness-50">Skills</a>
+          <a href="#resume" className="py-2 duration-300 ease-in-out hover:brightness-50">Resume</a>
         </div>
       </nav>
 
@@ -217,7 +217,7 @@ export default function Home() {
       </section>
 
       {/* --- Contact & Resume Section --- */}
-      <section id="contact" className="text-center px-6 py-30 max-w-6xl mx-auto font-[var(--font-cantata)]">
+      <section id="contact" className="text-center px-6 py-20 max-w-6xl mx-auto font-[var(--font-cantata)]">
         <h2 className="text-[32px] font-bold mb-6">04. Contact & Resume</h2>
 
         <p className="text-gray-300 text-lg">
@@ -284,12 +284,6 @@ export default function Home() {
           </a>
         </div>
       </section>
-
-
-
-
-
-
     </div>
   );
 }
