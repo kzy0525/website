@@ -1,5 +1,4 @@
 import Image from "next/image";
-import HoverImage from "./components/HoverImage";
 
 
 export default function Home() {
@@ -82,7 +81,7 @@ export default function Home() {
         <h2 className="text-center text-[32px] font-bold mb-4">02. Projects</h2>
 
         {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-15 gap-y-5 max-w-xl mx-auto mt-35"> */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-7xl mx-auto px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 w-full max-w-7xl mx-auto px-4 mt-35">
 
           {/* --- Project 1 --- */}
           <a
