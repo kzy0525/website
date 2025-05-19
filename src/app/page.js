@@ -22,7 +22,7 @@ export default function Home() {
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
           </a> */}
-          <a
+          {/* <a
             href="https://github.com/kzy0525"
             target="_blank"
             rel="noopener noreferrer"
@@ -35,7 +35,7 @@ export default function Home() {
               height={50}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
-          </a>
+          </a> */}
         </div>
         <div className="flex space-x-6 text-lg font-semibold">
           <a href="#about" className="duration-300 ease-in-out hover:brightness-50">About</a>
@@ -226,27 +226,16 @@ export default function Home() {
 
         {/* Resume Link */}
         <a
-          href="/Kevin_Ye_Resume.pdf"
+          href="https://drive.google.com/file/d/14zagliotB2y-JqALpBNn8HvbUmy2GnTb/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center text-[28px] text-white hover:underline transition mb-12"
+          className="inline-block bg-white text-black px-6 py-2 rounded-md text-[20px] font-semibold transition duration-300 hover:brightness-50 mb-12"
         >
-          Resume PDF <span className="ml-2 text-[32px]">➤</span>
+          Resume PDF
         </a>
 
         {/* Contact Icons */}
         <div className="flex flex-wrap justify-center gap-12 text-[20px] text-white mt-10">
-          {/* Instagram */}
-          <a
-            href="https://instagram.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex flex-col items-center hover:opacity-70 transition"
-          >
-            <Image src="/icons/instagram.png" alt="Instagram" width={32} height={32} />
-            <span className="mt-2">Instagram</span>
-          </a>
-
           {/* GitHub */}
           <a
             href="https://github.com/kzy0525"
@@ -254,7 +243,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="flex flex-col items-center hover:opacity-70 transition"
           >
-            <Image src="/icons/github.png" alt="GitHub" width={32} height={32} />
+            <Image src="github.png" alt="GitHub" width={32} height={32} />
             <span className="mt-2">GitHub</span>
           </a>
 
@@ -263,7 +252,7 @@ export default function Home() {
             href="mailto:ye.kevin@queensu.ca"
             className="flex flex-col items-center hover:opacity-70 transition"
           >
-            <Image src="/icons/email.png" alt="Email" width={32} height={32} />
+            <Image src="email.png" alt="Email" width={32} height={32} />
             <span className="mt-2">Email</span>
           </a>
 
@@ -274,7 +263,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="flex flex-col items-center hover:opacity-70 transition"
           >
-            <Image src="/icons/linkedin.png" alt="LinkedIn" width={32} height={32} />
+            <Image src="linkedin.png" alt="LinkedIn" width={32} height={32} />
             <span className="mt-2">LinkedIn</span>
           </a>
         </div>
