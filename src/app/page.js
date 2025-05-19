@@ -190,10 +190,10 @@ export default function Home() {
         <h2 className="cantata text-[32px] mb-6">03. Skills</h2>
         <p className="text-gray-300 text-lg">Languages, Frameworks and Libraries</p>
 
-        <div className="flex flex-wrap justify-center gap-6 mt-10">
+        <div className="flex flex-wrap justify-center gap-12 mt-10">
           {[
-            "js.png", "html.png", "css.png", "C.png", "python.png",
-            "java.png", "tf.png", "react.png", "sql.jpeg", "arduino.png", "figma.png"
+            "javascript.png", "html.png", "css.png", "C.png", "python.png",
+            "java.png", "tf.png", "react.png", "sql.jpeg", "Node.js.png", "arduino.png", "Selenium.png", "figma.png"
           ].map((src, i) => (
             <div key={i} className="w-[100px] h-[100px] relative">
               <Image src={`${src}`} alt={src} fill className="object-contain" />
@@ -245,7 +245,7 @@ export default function Home() {
             className="group"
           >
             <Image
-              src="/email.jpg"
+              src="/mail.jpg"
               alt="email"
               width={50}
               height={50}
