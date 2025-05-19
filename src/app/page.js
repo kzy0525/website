@@ -7,7 +7,7 @@ export default function Home() {
       
       {/* --- Fixed Nav Bar --- */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A] flex items-center justify-between px-6 py-2 border-b border-[#282828]">
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-20">
           {/* <a
             href="https://linkedin.com/in/kevinye0525"
             target="_blank"
@@ -158,7 +158,7 @@ export default function Home() {
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
-              <p className="text-sm text-gray-300 mb-1">March 2024</p>
+              <p className="text-sm text-gray-300 mb-1">Mar 2024</p>
               <h3 className="text-2xl font-semibold">Nomad</h3>
               <p className="text-sm text-gray-300 mt-1">UX</p>
             </div>
@@ -178,7 +178,7 @@ export default function Home() {
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
-              <p className="text-sm text-gray-300 mb-1">March 2025</p>
+              <p className="text-sm text-gray-300 mb-1">Mar 2025</p>
               <h3 className="text-2xl font-semibold">Motion Classification Model</h3>
               <p className="text-sm text-gray-300 mt-1">Back-end</p>
             </div>
@@ -220,7 +220,7 @@ export default function Home() {
       <section id="contact" className="text-center px-6 py-30 max-w-6xl mx-auto font-[var(--font-cantata)]">
         <h2 className="text-[32px] font-bold mb-6">04. Contact & Resume</h2>
 
-        <p className="text-gray-300 text-lg py-4">
+        <p className="text-gray-300 text-lg">
           Feel free to connect with me or check out my resume below!
         </p>
 
@@ -229,7 +229,7 @@ export default function Home() {
           href="https://drive.google.com/file/d/14zagliotB2y-JqALpBNn8HvbUmy2GnTb/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-white text-black px-6 py-2 rounded-md text-[20px] font-semibold transition duration-300 hover:brightness-50 mb-12"
+          className="inline-block bg-white text-black px-6 py-2 rounded-md text-[20px] font-semibold transition duration-300 ease-in-out group-hover:brightness-50"
         >
           Resume PDF
         </a>
@@ -241,19 +241,17 @@ export default function Home() {
             href="https://github.com/kzy0525"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center hover:opacity-70 transition"
+            className="flex flex-col items-center transition duration-300 ease-in-out group-hover:brightness-50"
           >
-            <Image src="github.png" alt="GitHub" width={32} height={32} />
-            <span className="mt-2">GitHub</span>
+            <Image src="github.png" alt="GitHub" width={43} height={43} />
           </a>
 
           {/* Email */}
           <a
             href="mailto:ye.kevin@queensu.ca"
-            className="flex flex-col items-center hover:opacity-70 transition"
+            className="flex flex-col items-center transition duration-300 ease-in-out group-hover:brightness-50"
           >
-            <Image src="email.png" alt="Email" width={32} height={32} />
-            <span className="mt-2">Email</span>
+            <Image src="email.png" alt="Email" width={50} height={50} />
           </a>
 
           {/* LinkedIn */}
@@ -261,10 +259,9 @@ export default function Home() {
             href="https://www.linkedin.com/in/kevinye0525"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center hover:opacity-70 transition"
+            className="flex flex-col items-center transition duration-300 ease-in-out group-hover:brightness-50"
           >
-            <Image src="linkedin.png" alt="LinkedIn" width={32} height={32} />
-            <span className="mt-2">LinkedIn</span>
+            <Image src="linkedin.png" alt="LinkedIn" width={50} height={50} />
           </a>
         </div>
       </section>
