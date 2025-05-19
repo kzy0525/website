@@ -193,23 +193,10 @@ export default function Home() {
         <div className="flex flex-wrap justify-center gap-6 mb-12">
           {[
             "js.jpeg", "html.png", "css.png", "c.png", "python.jpeg",
-            "java.png", "tf.png", "figma.png", "digitalocean.png", "jquery.png", "bootstrap.png",
-            "redux.png", "react.png", "svelte.png", "nodejs.png", "mongodb.png", "matlab.png", "php.png", "terminal.png"
+            "java.png", "tf.png", "react.png", "sql.png", "arduino.png", "figma.png"
           ].map((src, i) => (
-            <div key={i} className="w-[50px] h-[50px] relative">
+            <div key={i} className="w-[70px] h-[70px] relative">
               <Image src={`${src}`} alt={src} fill className="object-contain" />
-            </div>
-          ))}
-        </div>
-
-        <p className="text-gray-300 py-4 text-lg">Other Tools</p>
-
-        <div className="flex flex-wrap justify-center gap-6">
-          {[
-            "git.png", "tensorflow.png", "pytorch.png", "scikitlearn.png"
-          ].map((src, i) => (
-            <div key={i} className="w-[50px] h-[50px] relative">
-              <Image src={`/icons/${src}`} alt={src} fill className="object-contain" />
             </div>
           ))}
         </div>
