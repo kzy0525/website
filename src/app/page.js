@@ -45,7 +45,7 @@ export default function Home() {
       </nav>
 
       {/* --- Hero Section --- */}
-      <main className="flex flex-col items-center text-center mt-15 px-4">
+      <main className="flex flex-col items-center text-center mt-15 px-4 font-[var(--font-cantata)]">
         <h1 className="text-[70px] mt-15">Kevin Ye</h1>
         <p className="text-[30px] text-gray-300 py-5">Computer Engineering at Queen’s University</p>
         <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-2 border-white mt-8">
@@ -60,7 +60,7 @@ export default function Home() {
       </main>
 
       {/* --- About Section --- */}
-      <section id="about" className="text-center px-6 py-30 max-w-4xl mx-auto">
+      <section id="about" className="text-center px-6 py-30 max-w-4xl mx-auto font-[var(--font-cantata)]">
         <h2 className="text-[32px] font-bold mb-6">01. About Me</h2>
         <p className="text-gray-300 leading-relaxed py-5">
           I’m from Vancouver, BC and I am currently a Computer Engineering student at Queen’s University. 
@@ -88,7 +88,7 @@ export default function Home() {
             href="https://github.com/kzy0525/Hyperloop-Object-Detection"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
           >
             <Image
               src="/image.png"
@@ -182,9 +182,76 @@ export default function Home() {
               <p className="text-sm text-gray-300 mt-1">Back-end</p>
             </div>
           </a>
-
         </div>
       </section>
+
+      {/* --- Skills Section --- */}
+      <section id="skills" className="text-center px-6 py-30 max-w-6xl mx-auto font-[var(--font-cantata)]">
+        <h2 className="text-[32px] font-bold mb-6">03. Skills</h2>
+        <p className="text-gray-300 py-4 text-lg">Languages, Frameworks and Libraries</p>
+
+        <div className="flex flex-wrap justify-center gap-6 mb-12">
+          {[
+            "javascript.png", "html.png", "css.png", "c.png", "python.png", "arduino.png",
+            "java.png", "plotly.png", "postgresql.png", "digitalocean.png", "jquery.png", "bootstrap.png",
+            "redux.png", "react.png", "svelte.png", "nodejs.png", "mongodb.png", "matlab.png", "php.png", "terminal.png"
+          ].map((src, i) => (
+            <div key={i} className="w-[50px] h-[50px] relative">
+              <Image src={`/icons/${src}`} alt={src} fill className="object-contain" />
+            </div>
+          ))}
+        </div>
+
+        <p className="text-gray-300 py-4 text-lg">Other Tools</p>
+
+        <div className="flex flex-wrap justify-center gap-6">
+          {[
+            "git.png", "tensorflow.png", "pytorch.png", "scikitlearn.png"
+          ].map((src, i) => (
+            <div key={i} className="w-[50px] h-[50px] relative">
+              <Image src={`/icons/${src}`} alt={src} fill className="object-contain" />
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* --- Contact Section --- */}
+      <section id="contact" className="text-center px-6 py-30 max-w-4xl mx-auto font-[var(--font-cantata)]">
+        <h2 className="text-[32px] font-bold mb-6">04. Contact & Resume</h2>
+
+        <p className="text-gray-300 text-lg py-2">
+          Feel free to connect with me or check out my resume below!
+        </p>
+
+        <div className="flex flex-col items-center gap-4 mt-8">
+          {/* Resume Download */}
+          <a
+            href="/Kevin_Ye_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white border border-white px-6 py-2 rounded-lg hover:bg-white hover:text-black transition duration-300"
+          >
+            View My Resume
+          </a>
+
+          {/* Email */}
+          <p className="text-gray-300 text-md">
+             <a href="mailto:ye.kevin@queensu.ca" className="underline hover:text-white transition">ye.kevin@queensu.ca</a>
+          </p>
+
+          {/* Social Links */}
+          <div className="flex gap-6 justify-center mt-4">
+            <a href="https://www.linkedin.com/in/kevinye0525" target="_blank" rel="noopener noreferrer">
+              <Image src="/icons/linkedin.png" alt="LinkedIn" width={32} height={32} />
+            </a>
+            <a href="https://github.com/kzy0525" target="_blank" rel="noopener noreferrer">
+              <Image src="/icons/github.png" alt="GitHub" width={32} height={32} />
+            </a>
+          </div>
+        </div>
+      </section>
+
+
 
     </div>
   );
