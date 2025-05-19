@@ -18,8 +18,8 @@ export default function Home() {
             <Image
               src="/linkedin.png"
               alt="LinkedIn"
-              width={30}
-              height={30}
+              width={35}
+              height={35}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
           </a>
@@ -32,8 +32,8 @@ export default function Home() {
             <Image
               src="/github.png"
               alt="GitHub"
-              width={40}
-              height={40}
+              width={41}
+              height={41}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
           </a>
