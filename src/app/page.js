@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-[#1A1A1A] text-white font-[var(--font-cantata)] scroll-smooth">
+    <div className="bg-[#1A1A1A] text-white scroll-smooth">
       
       {/* --- Fixed Nav Bar --- */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A] flex items-center justify-between px-6 py-2 border-b border-[#282828]">
@@ -37,18 +37,18 @@ export default function Home() {
             />
           </a> */}
         </div>
-        <div className="flex space-x-6 text-lg font-semibold">
-          <a href="#about" className="py-2 duration-300 ease-in-out hover:brightness-50">About</a>
-          <a href="#projects" className="py-2 duration-300 ease-in-out hover:brightness-50">Projects</a>
-          <a href="#skills" className="py-2 duration-300 ease-in-out hover:brightness-50">Skills</a>
-          <a href="#resume" className="py-2 duration-300 ease-in-out hover:brightness-50">Resume</a>
+        <div className="flex space-x-6 text-lg">
+          <a href="#about" className="cantata py-2 duration-300 ease-in-out hover:brightness-50">About</a>
+          <a href="#projects" className="cantata py-2 duration-300 ease-in-out hover:brightness-50">Projects</a>
+          <a href="#skills" className="cantata py-2 duration-300 ease-in-out hover:brightness-50">Skills</a>
+          <a href="#resume" className="cantata py-2 duration-300 ease-in-out hover:brightness-50">Resume</a>
         </div>
       </nav>
 
       {/* --- Hero Section --- */}
-      <main className="flex flex-col items-center text-center mt-15 px-4 font-[var(--font-cantata)]">
-        <h1 className="text-[70px] mt-15">Kevin Ye</h1>
-        <p className="text-[30px] text-gray-300 py-5">Computer Engineering at Queen’s University</p>
+      <main className="flex flex-col items-center text-center mt-15 px-4">
+        <h1 className="cantata text-[70px] mt-15">Kevin Ye</h1>
+        <p className="cantata text-[30px] py-5">Computer Engineering at Queen’s University</p>
         <div className="w-[400px] h-[400px] rounded-full overflow-hidden border-2 border-white mt-8">
           <Image
             src="/headshot.png"
@@ -62,7 +62,7 @@ export default function Home() {
 
       {/* --- About Section --- */}
       <section id="about" className="text-center px-6 py-30 max-w-4xl mx-auto font-[var(--font-cantata)]">
-        <h2 className="text-[32px] font-bold mb-6">01. About Me</h2>
+        <h2 className="text-[32px] mb-6">01. About Me</h2>
         <p className="text-gray-300 leading-relaxed py-5">
           I’m from Vancouver, BC and I am currently a Computer Engineering student at Queen’s University. 
           I am interested in software engineering, artificial intelligence, and UX design. As I continue to learn 
@@ -79,7 +79,7 @@ export default function Home() {
 
       {/* --- Projects Section --- */}
       <section id="projects" className="px-6 py-5 max-w-full mx-auto font-[var(--font-cantata)]">
-        <h2 className="text-center text-[32px] font-bold mb-4">02. Projects</h2>
+        <h2 className="text-center text-[32px] mb-4">02. Projects</h2>
 
         {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-15 gap-y-5 max-w-xl mx-auto mt-35"> */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 w-full max-w-7xl mx-auto px-4 mt-35">
@@ -188,7 +188,7 @@ export default function Home() {
 
       {/* --- Skills Section --- */}
       <section id="skills" className="text-center px-6 py-30 max-w-6xl mx-auto font-[var(--font-cantata)]">
-        <h2 className="text-[32px] font-bold mb-6">03. Skills</h2>
+        <h2 className="text-[32px] mb-6">03. Skills</h2>
         <p className="text-gray-300 py-4 text-lg">Languages, Frameworks and Libraries</p>
 
         <div className="flex flex-wrap justify-center gap-6 mb-12">
@@ -218,7 +218,7 @@ export default function Home() {
 
       {/* --- Contact & Resume Section --- */}
       <section id="contact" className="text-center px-6 py-20 max-w-6xl mx-auto font-[var(--font-cantata)]">
-        <h2 className="text-[32px] font-bold mb-6">04. Contact & Resume</h2>
+        <h2 className="text-[32px] mb-6">04. Contact & Resume</h2>
 
         <p className="text-gray-300 text-lg">
           Feel free to connect with me or check out my resume below!

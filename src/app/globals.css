@@ -1,21 +1,17 @@
+/* --- Import Google Font --- */
 @import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+/* --- Tailwind Directives --- */
 @import "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+/* --- CSS Variables --- */
 :root {
   --background: #ffffff;
   --foreground: #171717;
   --font-cantata: 'Cantata One', serif;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,8 +21,14 @@
   }
 }
 
+/* --- Global Styling --- */
 body {
   background: var(--background);
   color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --- Custom Font Utility --- */
+.cantata {
   font-family: var(--font-cantata);
 }
