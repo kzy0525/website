@@ -186,16 +186,16 @@ export default function Home() {
       </section>
 
       {/* --- Skills Section --- */}
-      <section id="skills" className="text-center px-6 py-30 max-w-6xl mx-auto">
+      <section id="skills" className="text-center px-6 py-20 max-w-6xl mx-auto">
         <h2 className="cantata text-[32px] mb-6">03. Skills</h2>
-        <p className="text-gray-300 py-4 text-lg">Languages, Frameworks and Libraries</p>
+        <p className="text-gray-300 text-lg">Languages, Frameworks and Libraries</p>
 
-        <div className="flex flex-wrap justify-center gap-6 mb-12">
+        <div className="flex flex-wrap justify-center gap-6 mt-10">
           {[
-            "js.jpeg", "html.png", "css.png", "c.png", "python.jpeg",
-            "java.png", "tf.png", "react.png", "sql.png", "arduino.png", "figma.png"
+            "js.png", "html.png", "css.png", "C.png", "python.png",
+            "java.png", "tf.png", "react.png", "sql.jpeg", "arduino.png", "figma.png"
           ].map((src, i) => (
-            <div key={i} className="w-[70px] h-[70px] relative">
+            <div key={i} className="w-[100px] h-[100px] relative">
               <Image src={`${src}`} alt={src} fill className="object-contain" />
             </div>
           ))}
