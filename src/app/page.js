@@ -41,6 +41,7 @@ export default function Home() {
           <a href="#about" className="duration-300 ease-in-out hover:brightness-50">About</a>
           <a href="#projects" className="duration-300 ease-in-out hover:brightness-50">Projects</a>
           <a href="#skills" className="duration-300 ease-in-out hover:brightness-50">Skills</a>
+          <a href="#resume" className="duration-300 ease-in-out hover:brightness-50">Resume</a>
         </div>
       </nav>
 
@@ -236,20 +237,21 @@ export default function Home() {
 
           {/* Email */}
           <p className="text-gray-300 text-md">
-             <a href="mailto:ye.kevin@queensu.ca" className="underline hover:text-white transition">ye.kevin@queensu.ca</a>
+            📧 <a href="mailto:ye.kevin@queensu.ca" className="underline hover:text-white transition">ye.kevin@queensu.ca</a>
           </p>
 
           {/* Social Links */}
           <div className="flex gap-6 justify-center mt-4">
             <a href="https://www.linkedin.com/in/kevinye0525" target="_blank" rel="noopener noreferrer">
-              <Image src="/icons/linkedin.png" alt="LinkedIn" width={32} height={32} />
+              <Image src="linkedin.png" alt="LinkedIn" width={32} height={32} />
             </a>
             <a href="https://github.com/kzy0525" target="_blank" rel="noopener noreferrer">
-              <Image src="/icons/github.png" alt="GitHub" width={32} height={32} />
+              <Image src="github.png" alt="GitHub" width={32} height={32} />
             </a>
           </div>
         </div>
       </section>
+
 
 
 
