@@ -192,15 +192,33 @@ export default function Home() {
 
         <div className="flex flex-wrap justify-center gap-12 mt-10">
           {[
-            "javascript.png", "html.png", "css.png", "C.png", "python.png",
-            "java.png", "tf.png", "react.png", "sql.jpeg", "Node.js.png", "arduino.png", "Selenium.png", "figma.png"
-          ].map((src, i) => (
-            <div key={i} className="w-[100px] h-[100px] relative">
-              <Image src={`${src}`} alt={src} fill className="object-contain" />
+            { src: "javascript.jpg", name: "JavaScript" },
+            { src: "html.png", name: "HTML" },
+            { src: "css.png", name: "CSS" },
+            { src: "C.png", name: "C" },
+            { src: "python.png", name: "Python" },
+            { src: "java.png", name: "Java" },
+            { src: "tf.png", name: "TensorFlow" },
+            { src: "react.png", name: "React" },
+            { src: "sql.png", name: "SQL" },
+            { src: "Node.js.png", name: "Node.js" },
+            { src: "arduino.png", name: "Arduino" },
+            { src: "Selenium.png", name: "Selenium" },
+            { src: "figma.png", name: "Figma" },
+          ].map(({ src, name }, i) => (
+            <div
+              key={i}
+              className="group relative w-[100px] h-[100px] transition-transform duration-300 ease-in-out hover:scale-105"
+            >
+              <Image src={`/${src}`} alt={name} fill className="object-contain" />
+              <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 text-xs bg-black text-white rounded opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none">
+                {name}
+              </div>
             </div>
           ))}
         </div>
       </section>
+
 
       {/* --- Contact & Resume Section --- */}
       <section id="contact" className="text-center px-6 py-20 max-w-6xl mx-auto">
