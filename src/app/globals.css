@@ -32,3 +32,7 @@ body {
 .cantata {
   font-family: var(--font-cantata);
 }
+
+html {
+  scroll-behavior: smooth;
+}
