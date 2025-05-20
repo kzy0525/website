@@ -211,7 +211,7 @@ export default function Home() {
               className="group relative w-[100px] h-[100px] transition-transform duration-300 ease-in-out hover:scale-105"
             >
               <Image src={`/${src}`} alt={name} fill className="object-contain" />
-              <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 text-xs bg-[#80000000] text-white rounded opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none">
+              <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 text-xs bg-[#7f7f7f] text-white rounded opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none">
                 {name}
               </div>
             </div>
@@ -248,7 +248,7 @@ export default function Home() {
             className="group flex flex-col items-center"
           >
             <Image
-              src="/github.png"
+              src="/githubicon.png"
               alt="GitHub"
               width={60}
               height={60}
@@ -256,6 +256,24 @@ export default function Home() {
             />
             <div className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition duration-300">
               kzy0525
+            </div>
+          </a>
+
+          {/* Email */}
+          <a
+            href="mailto:ye.kevin@queensu.ca"
+            target="_blank"
+            className="group flex flex-col items-center"
+          >
+            <Image
+              src="/mailicon.png"
+              alt="email"
+              width={60}
+              height={60}
+              className="transition duration-300 ease-in-out group-hover:brightness-50"
+            />
+            <div className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+              ye.kevin@queensu.ca
             </div>
           </a>
 
@@ -269,31 +287,15 @@ export default function Home() {
             <Image
               src="/linkedin.png"
               alt="LinkedIn"
-              width={50}
-              height={50}
+              width={60}
+              height={60}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
             <div className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition duration-300">
               kevinye0525
             </div>
           </a>
-          {/* Email */}
-          <a
-            href="mailto:ye.kevin@queensu.ca"
-            target="_blank"
-            className="group flex flex-col items-center"
-          >
-            <Image
-              src="/mail.png"
-              alt="email"
-              width={60}
-              height={60}
-              className="transition duration-300 ease-in-out group-hover:brightness-50"
-            />
-            <div className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition duration-300">
-              ye.kevin@queensu.ca
-            </div>
-          </a>
+          
         </div>
 
       </section>
