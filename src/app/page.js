@@ -9,10 +9,10 @@ export default function Home() {
         <div className="flex items-center space-x-50">
           <a href="#">
             <Image
-              src="/logo.png" // replace with your actual logo file name
+              src="/logo.png" 
               alt="KY Logo"
-              width={40}
-              height={40}
+              width={50}
+              height={50}
             />
           </a>
         </div>
