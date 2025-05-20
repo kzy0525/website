@@ -7,34 +7,14 @@ export default function Home() {
       {/* --- Fixed Nav Bar --- */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A] flex items-center justify-between px-6 py-2 border-b border-[#282828]">
         <div className="flex items-center space-x-50">
-          {/* <a
-            href="https://linkedin.com/in/kevinye0525"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group"
-          >
+          <a href="#">
             <Image
-              src="/linkedin.png"
-              alt="LinkedIn"
+              src="/logo.png" // replace with your actual logo file name
+              alt="KY Logo"
               width={40}
               height={40}
-              className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
-          </a> */}
-          {/* <a
-            href="https://github.com/kzy0525"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group"
-          >
-            <Image
-              src="/github.png"
-              alt="GitHub"
-              width={50}
-              height={50}
-              className="transition duration-300 ease-in-out group-hover:brightness-50"
-            />
-          </a> */}
+          </a>
         </div>
         <div className="flex space-x-6 text-lg">
           <a href="#about" className="cantata py-2 duration-300 ease-in-out hover:brightness-50">About</a>
@@ -211,7 +191,7 @@ export default function Home() {
               className="group relative w-[100px] h-[100px] transition-transform duration-300 ease-in-out hover:scale-105"
             >
               <Image src={`/${src}`} alt={name} fill className="object-contain" />
-              <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 text-xs bg-[#7f7f7f] text-white rounded opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none">
+              <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 text-xs bg-[#141414] text-white rounded opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none">
                 {name}
               </div>
             </div>
@@ -239,7 +219,7 @@ export default function Home() {
         </a>
 
         {/* Contact Icons */}
-        <div className="flex flex-wrap justify-center gap-15 text-[20px] text-white mt-10">
+        <div className="flex flex-wrap justify-center gap-20 text-[20px] text-white mt-10">
           {/* GitHub */}
           <a
             href="https://github.com/kzy0525"
@@ -287,8 +267,8 @@ export default function Home() {
             <Image
               src="/linkedin.png"
               alt="LinkedIn"
-              width={60}
-              height={60}
+              width={50}
+              height={50}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
             <div className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition duration-300">
