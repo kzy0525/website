@@ -242,7 +242,7 @@ export default function Home() {
           <a
             href="mailto:ye.kevin@queensu.ca"
             target="_blank"
-            className="group flex flex-col items-center min-h-[100px] justify-center ml-4"
+            className="group flex flex-col items-center min-h-[100px] justify-center ml-6"
           >
             <Image
               src="/mailicon.png"
