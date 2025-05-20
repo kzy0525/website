@@ -65,25 +65,64 @@ export default function Home() {
 
           {/* --- Project 1 --- */}
           <a
-            href="https://github.com/kzy0525/Hyperloop-Object-Detection"
+            href="https://github.com/kzy0525/Motion-Classification-Model"
             target="_blank"
             rel="noopener noreferrer"
             className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
           >
             <Image
-              src="/image.png"
-              alt="qhdt"
+              src="/292.png"
+              alt="292"
               fill
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
-              <p className="text-sm text-gray-300 mb-1">Sept 2024</p>
-              <h3 className="text-2xl font-semibold">Machine Vision Sensor System</h3>
-              <p className="text-sm text-gray-300 mt-1">Hardware, Full-stack</p>
+              <p className="text-sm text-gray-300 mb-1">Mar 2025</p>
+              <h3 className="text-2xl font-semibold">Motion Classification Model</h3>
+              <p className="text-sm text-gray-300 mt-1">Back-end</p>
             </div>
           </a>
 
           {/* --- Project 2 --- */}
+          <a
+            href="https://example.com/nomad"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105 mt-[-80px]"
+          >
+            <Image
+              src="/nomad.png"
+              alt="Nomad"
+              fill
+              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
+              <p className="text-sm text-gray-300 mb-1">Mar 2025</p>
+              <h3 className="text-2xl font-semibold">Nomad</h3>
+              <p className="text-sm text-gray-300 mt-1">UX</p>
+            </div>
+          </a>
+          {/* --- Project 3 --- */}
+          <a
+            href="https://www.inqubate.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
+          >
+            <Image
+              src="/inqubateweb.png"
+              alt="University Club Website"
+              fill
+              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
+              <p className="text-sm text-gray-300 mb-1">Aug 2024</p>
+              <h3 className="text-2xl font-semibold">University Club Website</h3>
+              <p className="text-sm text-gray-300 mt-1">UX, Front-end</p>
+            </div>
+          </a>
+
+          {/* --- Project 4 --- */}
           <a
             href="https://github.com/kzy0525/Final-290-Code"
             target="_blank"
@@ -103,63 +142,23 @@ export default function Home() {
             </div>
           </a>
 
-          {/* --- Project 3 --- */}
-          <a
-            href="https://www.inqubate.ca/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
-          >
-            <Image
-              src="/inqubateweb.png"
-              alt="University Club Website"
-              fill
-              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
-            />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
-              <p className="text-sm text-gray-300 mb-1">Nov 2023</p>
-              <h3 className="text-2xl font-semibold">University Club Website</h3>
-              <p className="text-sm text-gray-300 mt-1">UX, Front-end</p>
-            </div>
-          </a>
-
-          {/* --- Project 4 --- */}
-          <a
-            href="https://example.com/nomad"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105 mt-[-80px]"
-          >
-            <Image
-              src="/nomad.png"
-              alt="Nomad"
-              fill
-              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
-            />
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
-              <p className="text-sm text-gray-300 mb-1">Mar 2024</p>
-              <h3 className="text-2xl font-semibold">Nomad</h3>
-              <p className="text-sm text-gray-300 mt-1">UX</p>
-            </div>
-          </a>
-
           {/* --- Project 5 --- */}
           <a
-            href="https://github.com/kzy0525/Motion-Classification-Model"
+            href="https://github.com/kzy0525/Hyperloop-Object-Detection"
             target="_blank"
             rel="noopener noreferrer"
             className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
           >
             <Image
-              src="/292.png"
-              alt="292"
+              src="/image.png"
+              alt="qhdt"
               fill
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
-              <p className="text-sm text-gray-300 mb-1">Mar 2025</p>
-              <h3 className="text-2xl font-semibold">Motion Classification Model</h3>
-              <p className="text-sm text-gray-300 mt-1">Back-end</p>
+              <p className="text-sm text-gray-300 mb-1">Jan 2024</p>
+              <h3 className="text-2xl font-semibold">Machine Vision Sensor System</h3>
+              <p className="text-sm text-gray-300 mt-1">Hardware, Full-stack</p>
             </div>
           </a>
         </div>
@@ -219,13 +218,13 @@ export default function Home() {
         </a>
 
         {/* Contact Icons */}
-        <div className="flex flex-wrap justify-center gap-20 text-[20px] text-white mt-10">
+        <div className="flex justify-center items-center gap-20 text-white mt-10">
           {/* GitHub */}
           <a
             href="https://github.com/kzy0525"
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex flex-col items-center"
+            className="group flex flex-col items-center min-h-[100px] justify-center"
           >
             <Image
               src="/githubicon.png"
@@ -243,7 +242,7 @@ export default function Home() {
           <a
             href="mailto:ye.kevin@queensu.ca"
             target="_blank"
-            className="group flex flex-col items-center"
+            className="group flex flex-col items-center min-h-[100px] justify-center"
           >
             <Image
               src="/mailicon.png"
@@ -262,7 +261,7 @@ export default function Home() {
             href="https://linkedin.com/in/kevinye0525"
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex flex-col items-center"
+            className="group flex flex-col items-center min-h-[100px] justify-center"
           >
             <Image
               src="/linkedin.png"
@@ -275,9 +274,7 @@ export default function Home() {
               kevinye0525
             </div>
           </a>
-          
         </div>
-
       </section>
     </div>
   );
