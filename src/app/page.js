@@ -186,7 +186,7 @@ export default function Home() {
       </section>
 
       {/* --- Skills Section --- */}
-      <section id="skills" className="text-center px-6 py-20 max-w-6xl mx-auto">
+      <section id="skills" className="text-center px-6 py-20 mt-10 max-w-6xl mx-auto">
         <h2 className="cantata text-[32px] mb-6">03. Skills</h2>
         <p className="text-gray-300 text-lg">Languages, Frameworks and Libraries</p>
 
@@ -211,7 +211,7 @@ export default function Home() {
               className="group relative w-[100px] h-[100px] transition-transform duration-300 ease-in-out hover:scale-105"
             >
               <Image src={`/${src}`} alt={name} fill className="object-contain" />
-              <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-3 py-2 text-xs bg-black text-white rounded opacity-50 group-hover:opacity-100 transition duration-300 pointer-events-none">
+              <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-3 py-2 text-xs bg-black text-white rounded opacity-0 group-hover:opacity-50 transition duration-300 pointer-events-none">
                 {name}
               </div>
             </div>
@@ -221,7 +221,7 @@ export default function Home() {
 
 
       {/* --- Contact & Resume Section --- */}
-      <section id="contact" className="text-center px-6 py-20 max-w-6xl mx-auto">
+      <section id="contact" className="text-center px-6 py-25 max-w-6xl mx-auto">
         <h2 className="cantata text-[32px] mb-6">04. Contact & Resume</h2>
 
         <p className="text-gray-300 text-lg">
@@ -245,7 +245,7 @@ export default function Home() {
             href="https://github.com/kzy0525"
             target="_blank"
             rel="noopener noreferrer"
-            className="group"
+            className="group flex flex-col items-center"
           >
             <Image
               src="/github.png"
@@ -254,21 +254,27 @@ export default function Home() {
               height={50}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
+            <div className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+              GitHub
+            </div>
           </a>
 
           {/* Email */}
           <a
             href="mailto:ye.kevin@queensu.ca"
             target="_blank"
-            className="group"
+            className="group flex flex-col items-center"
           >
             <Image
               src="/mail.png"
               alt="email"
-              width={50}
-              height={50}
+              width={60}
+              height={60}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
+            <div className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+              Email
+            </div>
           </a>
 
           {/* LinkedIn */}
@@ -276,17 +282,21 @@ export default function Home() {
             href="https://linkedin.com/in/kevinye0525"
             target="_blank"
             rel="noopener noreferrer"
-            className="group"
+            className="group flex flex-col items-center"
           >
             <Image
               src="/linkedin.png"
               alt="LinkedIn"
-              width={40}
-              height={40}
+              width={50}
+              height={50}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
+            <div className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+              LinkedIn
+            </div>
           </a>
         </div>
+
       </section>
     </div>
   );
