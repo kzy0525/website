@@ -229,8 +229,8 @@ export default function Home() {
             <Image
               src="/githubicon.png"
               alt="GitHub"
-              width={60}
-              height={60}
+              width={55}
+              height={55}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
             <div className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition duration-300">
@@ -242,7 +242,7 @@ export default function Home() {
           <a
             href="mailto:ye.kevin@queensu.ca"
             target="_blank"
-            className="group flex flex-col items-center min-h-[100px] justify-center ml-6"
+            className="group flex flex-col items-center min-h-[100px] justify-center ml-4"
           >
             <Image
               src="/mailicon.png"
