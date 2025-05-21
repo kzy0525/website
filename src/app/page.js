@@ -85,7 +85,7 @@ export default function Home() {
 
           {/* --- Project 2 --- */}
           <a
-            href="https://example.com/nomad"
+            href="https://drive.google.com/file/d/1RPzAp3iVrLNg2dz_HmdmX8qN-dGGw3Gs/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105 mt-[-80px]"
