@@ -224,7 +224,7 @@ export default function Home() {
             href="https://github.com/kzy0525"
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex flex-col items-center min-h-[100px] justify-center"
+            className="group flex flex-col items-center min-h-[100px] justify-center ml-5"
           >
             <Image
               src="/githubicon.png"
@@ -266,8 +266,8 @@ export default function Home() {
             <Image
               src="/linkedin.png"
               alt="LinkedIn"
-              width={50}
-              height={50}
+              width={44}
+              height={44}
               className="transition duration-300 ease-in-out group-hover:brightness-50"
             />
             <div className="mt-2 text-sm opacity-0 group-hover:opacity-100 transition duration-300">
