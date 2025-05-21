@@ -184,6 +184,7 @@ export default function Home() {
             { src: "arduino.png", name: "Arduino" },
             { src: "Selenium.png", name: "Selenium" },
             { src: "figma.png", name: "Figma" },
+            { src: "powerbi.png", name: "Power BI" },
           ].map(({ src, name }, i) => (
             <div
               key={i}
