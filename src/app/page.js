@@ -65,21 +65,21 @@ export default function Home() {
 
           {/* --- Project 1 --- */}
           <a
-            href="https://github.com/kzy0525/Motion-Classification-Model"
+            href="https://github.com/kzy0525/Stock-Sentiment-Analysis"
             target="_blank"
             rel="noopener noreferrer"
             className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
           >
             <Image
-              src="/292.png"
-              alt="292"
+              src="/stock.jpeg"
+              alt="stock sentiment analyzer"
               fill
               className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
-              <p className="text-sm text-gray-300 mb-1">Mar 2025</p>
-              <h3 className="text-2xl font-semibold">Motion Classification Model</h3>
-              <p className="text-sm text-gray-300 mt-1">Back-end</p>
+              <p className="text-sm text-gray-300 mb-1">Jun 2025</p>
+              <h3 className="text-2xl font-semibold">Stock Sentiment Analyzer</h3>
+              <p className="text-sm text-gray-300 mt-1">Full-stack</p>
             </div>
           </a>
 
@@ -159,6 +159,26 @@ export default function Home() {
               <p className="text-sm text-gray-300 mb-1">Jan 2024</p>
               <h3 className="text-2xl font-semibold">Machine Vision Sensor System</h3>
               <p className="text-sm text-gray-300 mt-1">Hardware, Full-stack</p>
+            </div>
+          </a>
+
+          {/* --- Project 6 --- */}
+          <a
+            href="https://github.com/kzy0525/Motion-Classification-Model"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105 mt-[-80px]"
+          >
+            <Image
+              src="/292.png"
+              alt="292"
+              fill
+              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
+              <p className="text-sm text-gray-300 mb-1">Mar 2025</p>
+              <h3 className="text-2xl font-semibold">Motion Classification Model</h3>
+              <p className="text-sm text-gray-300 mt-1">Back-end</p>
             </div>
           </a>
         </div>
