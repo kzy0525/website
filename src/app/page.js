@@ -63,12 +63,33 @@ export default function Home() {
         {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-15 gap-y-5 max-w-xl mx-auto mt-35"> */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 w-full max-w-7xl mx-auto px-4 mt-35">
 
+
+          {/* --- Project 1 --- */}
+          <a
+            href="https://github.com/kzy0525/Pancreatic-Cancer-Classification-and-Segmentation"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
+          >
+            <Image
+              src="/cancer.png"
+              alt="cancer detection"
+              fill
+              className="object-cover transition duration-300 ease-in-out group-hover:brightness-50 rounded-2xl"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white opacity-0 group-hover:opacity-100 transition duration-300 bg-black/20">
+              <p className="text-sm text-gray-300 mb-1">Aug 2025</p>
+              <h3 className="text-2xl font-semibold">Deep Learning for Pancreatic Cancer Segmentation & Classification</h3>
+              <p className="text-sm text-gray-300 mt-1">Backend</p>
+            </div>
+          </a>
+
           {/* --- Project 1 --- */}
           <a
             href="https://github.com/kzy0525/Stock-Sentiment-Analysis"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105 mt-[-80px]"
           >
             <Image
               src="/stock.jpeg"
@@ -88,7 +109,7 @@ export default function Home() {
             href="https://drive.google.com/file/d/1RPzAp3iVrLNg2dz_HmdmX8qN-dGGw3Gs/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105 mt-[-80px]"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
           >
             <Image
               src="/nomad.png"
@@ -107,7 +128,7 @@ export default function Home() {
             href="https://www.inqubate.ca/"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105 mt-[-80px]"
           >
             <Image
               src="/inqubateweb.png"
@@ -127,7 +148,7 @@ export default function Home() {
             href="https://github.com/kzy0525/Final-290-Code"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105 mt-[-80px]"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
           >
             <Image
               src="/atmos.png"
@@ -147,7 +168,7 @@ export default function Home() {
             href="https://github.com/kzy0525/Hyperloop-Object-Detection"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105 mt-[-80px]"
           >
             <Image
               src="/image.png"
@@ -167,7 +188,7 @@ export default function Home() {
             href="https://github.com/kzy0525/Motion-Classification-Model"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105 mt-[-80px]"
+            className="relative group w-[300px] h-[415px] rounded-2xl overflow-hidden shadow-lg transform transition duration-300 ease-in-out hover:scale-105]"
           >
             <Image
               src="/292.png"
