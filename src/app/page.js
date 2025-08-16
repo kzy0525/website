@@ -251,7 +251,7 @@ export default function Home() {
 
         {/* Resume Link */}
         <a
-          href="https://drive.google.com/file/d/14zagliotB2y-JqALpBNn8HvbUmy2GnTb/view?usp=sharing"
+          href="https://drive.google.com/file/d/1jgSRvl-QT3qONrUZLdgZ3Ot_Lu3Du10y/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-white text-black px-6 py-2 mt-10 rounded-md text-[20px] font-semibold transition duration-300 hover:brightness-50"
